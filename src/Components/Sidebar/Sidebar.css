@@ -1,0 +1,22 @@
+.sidebar-list{
+    line-height: 2.5;
+    padding-left: 15px;
+}
+.sidebar{
+    
+}
+.small-img{
+    width: 12%;
+}
+.medium-img{
+    width: 30%;
+}
+.small-sidebar span{
+    display: none;
+}
+.small-sidebar p{
+    display: none;
+}
+.active img{
+    border-bottom: 4px solid red;
+}

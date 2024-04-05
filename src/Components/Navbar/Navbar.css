@@ -1,0 +1,24 @@
+.menu-icon{
+    width: 30px;
+}
+.navbar-brand{
+    min-width: 9%;
+}
+.navbar-brand img{
+    width: 60%;
+}
+div.input-group input.form-control{
+    width: 400px;
+    border-radius: 20px;
+}
+.input-group-text{
+    border-radius: 20px;
+}
+.icons-img{
+    width: 14%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.navbar-right-side-icons{
+    width: 20%;
+}
