@@ -48,7 +48,7 @@ const PlayVideo = () => {
 
  return (
   <>
-   <div className="col-8">
+   <div className="col-sm-12 col-md-8">
     {/* <video src={video} controls className='w-100' autoPlay muted></video> */}
     <iframe src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} className='w-100 play-video' title="Create YouTube Clone Using React JS | Build Complete Website Like YouTube In React JS 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     <h4>{apiData ? apiData.snippet.title : "Title Here"}</h4>
@@ -70,7 +70,7 @@ const PlayVideo = () => {
     <hr />
     <div className="row d-flex align-items-center">
      <div className="col-1">
-      <img src={channelData ? channelData.snippet.thumbnails.default.url : ""} className='img-fluid rounded-circle' alt="" />
+      <img src={channelData ? channelData.snippet.thumbnails.default.url : ""} className='img-fluid w-100 rounded-circle' alt="" />
      </div>
      <div className="col-3">
       <h6 className='mb-0'>{apiData ? apiData.snippet.channelTitle : ''}</h6>

@@ -1,24 +1,41 @@
-.menu-icon{
+.menu-icon {
     width: 30px;
 }
-.navbar-brand{
+
+.navbar-brand {
     min-width: 9%;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 60%;
 }
-div.input-group input.form-control{
-    width: 400px;
+
+div.input-group input.form-control {
+    /* width: 400px; */
+    width: 30vw;
     border-radius: 20px;
 }
-.input-group-text{
+
+.input-group-text {
     border-radius: 20px;
 }
-.icons-img{
+
+.icons-img {
     width: 14%;
     border-radius: 50%;
     margin-right: 20px;
 }
-.navbar-right-side-icons{
+
+.navbar-right-side-icons {
     width: 20%;
+}
+
+@media screen and (max-width: 576px) {
+    div.navbar-nav{
+        margin-top: 20px;
+    }
+    img.icons-img{
+        width: 28%;
+        margin-top: 10px;
+    }
 }

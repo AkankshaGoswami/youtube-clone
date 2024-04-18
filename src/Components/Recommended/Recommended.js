@@ -29,7 +29,7 @@ const Recommended = ({ categoryId }) => {
   <>
    {
     apiData.map((item, index) => {
-     return <Link to={`/video/${item.snippet.categoryId}/${item.id}`} key={index} className="row mb-2 text-decoration-none text-dark">
+     return <Link to={`/video/${item.snippet.categoryId}/${item.id}`} key={index} className="row mb-2 text-decoration-none text-dark recommended-section px-sm-2 px-lg-0">
       <div className="col-6 p-0">
        <img src={item.snippet.thumbnails.medium.url} className='img-fluid' alt="" />
       </div>

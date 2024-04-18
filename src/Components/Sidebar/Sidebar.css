@@ -20,3 +20,20 @@
 .active img{
     border-bottom: 4px solid red;
 }
+@media screen and (max-width: 768px) {
+   .sidebar-list span, p{
+    display: none;
+   }
+   .sidebar-list img{
+    width: 30%;
+   }
+}
+@media screen and (max-width: 576px) {
+    .sidebar-list span, p{
+     display: none;
+    }
+    .sidebar-list img{
+     width: 50%;
+    }
+ }
+ 

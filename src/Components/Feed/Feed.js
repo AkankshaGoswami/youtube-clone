@@ -34,7 +34,7 @@ const Feed = ({ category }) => {
   <>
    <div className="row">
     {data.map((item, index) => {
-     return <div className="col-3">
+     return <div className="col-sm-6 col-lg-3 feed-card">
       <Link to={`/video/${item.snippet.categoryId}/${item.id}`} className='text-decoration-none text-dark'>
        <img src={item.snippet.thumbnails.medium.url} className="img-fluid rounded" alt="" />
        <h6 className='mt-2'>{item.snippet.title}</h6>

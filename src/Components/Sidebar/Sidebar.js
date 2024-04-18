@@ -19,7 +19,7 @@ import cameron from '../../assets/cameron.png';
 const Sidebar = ({ sidebar, category, setCategory }) => {
     return (
         <>
-            <div className={`${sidebar ? "" : "small-sidebar"}`}>
+            <div className={`${sidebar ? "" : "small-sidebar"} pt-3`}>
                 <ul className='list-unstyled sidebar-list'>
                     <li onClick={()=>setCategory(0)} className={`sidelink ${category===0?'active':''}`}>
                         <img src={home}

@@ -12,7 +12,7 @@ const Video = () => {
     <div className="container-fluid mt-4 bg-light">
       <div className="row">
         <PlayVideo videoId={videoId}/>
-        <div className="col-4">
+        <div className="col-sm-12 col-md-4">
           <Recommended categoryId={categoryId}/>
         </div>
       </div>
